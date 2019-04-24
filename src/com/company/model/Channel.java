@@ -7,9 +7,13 @@ public class Channel {
 
     private String name;
 
+    public Channel(String name) {
+        this.name = name;
+    }
+
     private Map<Integer, Program> dayProgram = new HashMap<>(); // для добавления в недельную программу
 
-    private Map<WeekDays, HashMap<Integer, Program>> weekProgram = new HashMap<>();
+    private Map<WeekDays, Map<Integer, Program>> weekProgram = new HashMap<>();
 
 
     public String getName() {
@@ -28,11 +32,11 @@ public class Channel {
         this.dayProgram = dayProgram;
     }
 
-    public Map<WeekDays, HashMap<Integer, Program>> getWeekProgram() {
+    public Map<WeekDays, Map<Integer, Program>> getWeekProgram() {
         return weekProgram;
     }
 
-    public void setWeekProgram(Map<WeekDays, HashMap<Integer, Program>> weekProgram) {
+    public void setWeekProgram(Map<WeekDays, Map<Integer, Program>> weekProgram) {
         this.weekProgram = weekProgram;
     }
 

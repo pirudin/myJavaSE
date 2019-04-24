@@ -21,4 +21,17 @@ public class Program {
     public void setProgramGenre(ProgramGenre programGenre) {
         this.programGenre = programGenre;
     }
+
+    public Program(String name, ProgramGenre programGenre) {
+        this.name = name;
+        this.programGenre = programGenre;
+    }
+
+    @Override
+    public String toString() {
+        return "Program{" +
+                "name='" + name + '\'' +
+                ", programGenre=" + programGenre +
+                '}';
+    }
 }
