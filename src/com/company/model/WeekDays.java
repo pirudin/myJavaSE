@@ -8,5 +8,6 @@ public enum WeekDays {
     THURSDAY,
     FRIDAY,
     SATURDAY,
-    SUNDAY
+    SUNDAY;
+
 }

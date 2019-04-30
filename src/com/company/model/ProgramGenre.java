@@ -1,6 +1,6 @@
 package com.company.model;
 
-public enum ProgramGenre {
+public enum ProgramGenre { // j = 10;
 
     CARTOON(0),
     ADVERTISING(0),

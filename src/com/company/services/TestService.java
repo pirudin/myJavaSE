@@ -7,8 +7,10 @@ import com.company.model.Schedule;
 
 public class TestService {
 
+    private Service s = new Service();
+
     public void addSome(){
-        Service s = new Service();
+        //Service s = new Service();
 
         Schedule s1 = new Schedule();
 
@@ -47,6 +49,5 @@ public class TestService {
         s.print(p2);
         s.print(p4);
         s.print(p7);
-
     }
 }
