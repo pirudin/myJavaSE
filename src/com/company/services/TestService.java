@@ -10,7 +10,6 @@ public class TestService {
     private Service s = new Service();
 
     public void addSome(){
-        //Service s = new Service();
 
         Schedule s1 = new Schedule();
 
@@ -40,14 +39,12 @@ public class TestService {
         s.addProgramToChannelsDayProgram(2, p6, c3);
         s.addProgramToChannelsDayProgram(3, p7, c3);
 
-
         s.addChannelToSchedule(s1, c1);
         s.addChannelToSchedule(s1, c2);
         s.addChannelToSchedule(s1, c3);
+    }
 
-        s.print(p1);
-        s.print(p2);
-        s.print(p4);
-        s.print(p7);
+    public void printSome(){
+
     }
 }

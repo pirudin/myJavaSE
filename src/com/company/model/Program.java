@@ -1,6 +1,8 @@
 package com.company.model;
 
-public class Program {
+import java.io.Serializable;
+
+public class Program implements Serializable {
 
     private String name;
 

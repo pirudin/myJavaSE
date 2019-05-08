@@ -1,9 +1,10 @@
 package com.company.model;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Channel {
+public class Channel implements Serializable {
 
     private String name;
 

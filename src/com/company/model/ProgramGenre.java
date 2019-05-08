@@ -1,6 +1,8 @@
 package com.company.model;
 
-public enum ProgramGenre { // j = 10;
+import java.io.Serializable;
+
+public enum ProgramGenre implements Serializable { // j = 10;
 
     CARTOON(0),
     ADVERTISING(0),

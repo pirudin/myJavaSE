@@ -1,6 +1,8 @@
 package com.company.model;
 
-public enum WeekDays {
+import java.io.Serializable;
+
+public enum WeekDays implements Serializable {
 
     MONDAY,
     TUESDAY,

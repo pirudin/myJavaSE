@@ -1,9 +1,11 @@
 package com.company.model;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Schedule {
+
+public class Schedule implements Serializable {
 
     private Map<String, Channel> weekSchedule = new HashMap<>();
 
